@@ -1,0 +1,128 @@
+* {
+    margin:0;
+    padding: 0;
+
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(247, 240, 218);
+}
+
+a {
+    color: rgb(180, 129, 34);
+}
+
+a:active {
+    color: rgb(240, 207, 116);
+}
+
+a:hover {
+    color: rgb(107, 77, 33);
+}
+/* 
+=====  HEADER  =====
+*/    
+
+header {
+    background-color: #000000;
+    display: flex;
+}    
+
+nav {
+    width: 100%;
+    display: flex;
+    margin-right: 10%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}    
+
+h1 {
+    color:rgb(167, 114, 17);
+    margin-left: 20px ;
+}
+
+.img {
+
+    background-color: rgb(180, 129, 34);
+}    
+
+.img img {
+    width: 50px;
+}    
+
+.menu a{
+    margin: 0 25px 0px 25px;
+}
+
+/*==============*/
+
+.body {
+    margin: 50px;
+}
+
+/* 
+    =====  MAIN  =====
+*/    
+
+.paragraph{
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: rgba(206, 171, 76, 0.836);
+    color:rgb(255, 255, 255);
+}
+
+p{
+    margin: 20px;
+}
+
+/* 
+    =====  ASIDE  =====
+*/    
+
+aside {
+    background-color: rgb(187, 153, 85);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+aside div {
+    background-color: rgba(131, 88, 23, 0.274);
+    width: 20%;
+    height: 60%;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:white;
+}
+
+
+/* 
+    =====  FOOTER  =====
+*/    
+
+footer {
+    background-color: #000; 
+    min-height: 183px;
+    color: #a78c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
